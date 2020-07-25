@@ -1,0 +1,24 @@
+.information-box {
+    background-color: $color-secondary;
+    overflow: auto;
+}
+
+.main-header {
+    background-color: $color-primary;
+    margin: 2rem;
+    &__search-box {
+        text-align: left;   
+    }
+    &__cart-box {
+        text-align: right;
+    }
+}
+.btn {
+    border: none;
+    padding: .2rem;
+    background: #FFF;
+
+    &__search {
+        font-size: 1rem;
+    }
+}
